@@ -4,13 +4,38 @@ body {
   padding-bottom: 20px;
 }
 
-
-
 .range li{
 	margin-right: 8%;
 	display:inline;
 }
 
+#menu {
+	background-color: #528540;
+	font-family: 'Open Sans';
+	border: none;
+	padding: 1em;
+}
+
+.navbar-brand {
+	font-family: 'Open Sans';
+	font-size: 2em;
+	color: #fff !important;
+}
+
+#header {
+	font-family: 'Open Sans';
+	text-align: center;
+	background-color: #ACD97E;
+	padding: 2em;
+}
+
+.jumbotron {
+	background-color: #ACD97E;
+}
+
+#desc {
+	margin: 2em;
+}
 
 #title {
 	font-weight: bold;
