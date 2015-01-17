@@ -4,6 +4,10 @@ body {
   padding-bottom: 20px;
 }
 
+h2, p {
+	font-family: 'Open Sans';
+}
+
 .range li{
 	margin-right: 8%;
 	display:inline;
