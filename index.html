@@ -10,8 +10,6 @@
 
     <title>Bottoms Up</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="home.css" rel="stylesheet">
@@ -19,48 +17,34 @@
 
   <body>
 
-    <nav id = "menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">BottomsUp</a>
-        </div>
-      </div>
-    </nav>
-
     <!-- Header at the top -->
-    <div class="jumbotron">
-      <div id = "header" class="container">
-        <h2>BottomsUp: A Toast to Better Helath</h2><br>
-        <p id = "types">Want to be healthy but need an extra push? BottomsUp is the newest innovative smart pillow that can transform the way you approach healthy living. Encapsulated in a sleek but comfortable design, BottomsUp is a seat cushion that allows you to track your activity levels. It will also send a text to your phone to remind you when you have been sedentary for too long and encourage you to exercise.</p>
-      </div>
-    </div>
+        <img src="pillow.png" id="pillow"> 
 
-    <!--Questions for the Survey -->
-    <center>
-    <div id = "desc" class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h3>We all want to live long, healthy lives, but...</h3>
-          <p>over 50 percent of American men, and 60 percent of American women, never engage in any vigorous physical activity lasting more than 10 minutes per week. Exercise deficiency threatens both physical and mental wellness, shortening your lifespan.</p>
+        <h1>A Toast to Better Health</h1><br>
+        <p id="descrip">Want to be healthy but need an extra push? BottomsUp is the newest innovative smart pillow that can transform the way you approach healthy living. Encapsulated in a sleek but comfortable design, BottomsUp is a seat cushion that allows you to track your activity levels. It will also send a text to your phone to remind you when you have been sedentary for too long and encourage you to exercise.</p>
+        <div id="first">
+          <img src="time.png" id="time"> 
+          <h2 id = "one">We all want to live long, healthy lives, but...</h2><br>
+          <p id = "one">over 50 percent of American men, and 60 percent of American women, never engage in any vigorous physical activity lasting more than 10 minutes per week. <br><br>Exercise deficiency threatens both physical and mental wellness, shortening your lifespan.</p>
         </div>
-        <div class="col-md-4">
-          <h3>Sitting down can increase heart failure.</h3>
-          <p>Experiments show that sitting down for too long can be fatal for your health. Those who sat for the long periods of time were twice as likely to have diabetes or heart disease.</p>
+        <div id="second">
+          <div class='heart animated css'></div> 
+          <h2>Sitting down can increase heart failure.</h2><br>
+          <p id = "two">Experiments show that sitting down for too long can be fatal for your health. Those who sit for long periods of time are twice as likely to have diabetes or heart disease.</p>
        </div>
-        <div class="col-md-4">
-          <h3>So, stand up!</h3>
+        <div id = "third">          
+          <h2 align = "center">"So, stand up!"</h2>
+          <p align = "center">-the developers of BottomsUp</p>
           <p>The mere act of standing up from a seated position is effective at counteracting the detrimental health effects of sitting. Standing up four times an hour can significantly increase your health. Most people will forget to do this once working, and BottomsUp is here to help.</p>
         </div>
-      </div>
-
-    </div> <!-- /container -->
-  </center>
+        <div id = "fourth">
+          <img src="phone.png" id="phone"> 
+          <div id="textFour">
+          <img id="megaphone" src="https://az649790.vo.msecnd.net/www/image/d972845bb41241f49a0b3198c2861a57/megaphone_1.png">
+          <h2 align = "center">Regular Alerts</h2><br>
+          <p>Simply add your phone number and preferred reminder interval through BottomsUp app. Your pillow will text you reminders to stay active. </p>
+          </div>
+        </div>
 
 
     <!-- Bootstrap core JavaScript
@@ -70,9 +54,6 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="lib/js/underscore.js"></script>
-    <script src="lib/js/backbone.js"></script>
-    <script src="chart.js"></script>
     <script src="lib/js/jquery-1.11.1.js"></script>
   </body>
 </html>
