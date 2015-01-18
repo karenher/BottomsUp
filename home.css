@@ -175,10 +175,6 @@ h2 {
 	padding-top: 60px;
 }
 
-#phone{
-	margin-left:25%;
-}
-
 #fourth {
 	background-color: #F8F8F8;
 	width: 100%;
@@ -187,12 +183,10 @@ h2 {
 }
 
 #megaphone {
-	margin-left: 40%;
+  padding-left: 40%;
 }
 
-#textFour{
-	margin-left: 45%;
-	margin-right: 25%;
-	margin-top: -400px;
-	padding-bottom: 20px;
+table{
+  margin-left: 27%;
+  width: 50%;
 }
